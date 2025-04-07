@@ -1,0 +1,19 @@
+body{
+    font-family: sans-serif;
+    background-image: url("./山水.png");
+    background-repeat: no-repeat;
+    overflow: hidden;
+    background-size: cover;
+}
+
+.px{
+    width:130px;
+    height:80px;
+    font-size: 40px;
+}
+
+.wenben{
+    width:500px;
+    height:50px;
+    font-size: 40px;
+}
