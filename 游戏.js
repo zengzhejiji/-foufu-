@@ -57,7 +57,6 @@ function handleCellClick(x, y){
     const cell = document.querySelector(`[data-x="${x}"][data-y="${y}"]`);
     if (board[x][y] === -1) {
         cell.style.backgroundColor = 'red';
-        window.alert('游戏结束，刷新重来')
     }else {
         cell.style.backgroundColor = '#e0e0e0';
         if (board[x][y] === 0) {
